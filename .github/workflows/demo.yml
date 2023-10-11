@@ -19,5 +19,5 @@ jobs:
 
     - name: Hacer deploy
       run: |
-        surge --project./ --domain eleveneleven.surge.sh --token ${{ secrets.SURGE_API_KEY }} 
+        surge --project ./ --domain eleveneleven.surge.sh --token ${{ secrets.SURGE_API_KEY }} 
            
