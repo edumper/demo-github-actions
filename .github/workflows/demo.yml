@@ -15,7 +15,7 @@ jobs:
 
     - name: Instalar surge
       run: |
-      npm install --global surge
+        npm install --global surge
 
     - name: Hacer deploy
       run: |
